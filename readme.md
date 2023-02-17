@@ -1,3 +1,8 @@
+# day 37 Database - MongoDB
+
+### you can check the code by using some of the online MongoDB compiler
+<img src="./image/img (1).png" alt="ans-1">
+
 ## 1) Find all the information about each products
 db.products.find({}).toArray();
 
