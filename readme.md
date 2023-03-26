@@ -7,10 +7,13 @@
 ## 1) Find all the information about each products
 ```js
 db.products.find({}).toArray();
-<img src="./image/img (2).png" alt="ans-1">
 ```
+<img src="./image/img (2).png" alt="ans-1">
+
 ## 2) Find the product price which are between 400 to 800
+```
 db.products.find({product_price:{$lt:800,$gt:400}}).toArray();
+```
 <img src="./image/img (3).png" alt="ans-1">
 
 ## 3) Find the product price which are not between 400 to 600
